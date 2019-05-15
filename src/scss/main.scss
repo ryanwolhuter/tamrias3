@@ -2,6 +2,7 @@
 @import "navbar";
 @import "music";
 @import "work";
+@import "about";
 @import "contact";
 
 body,
@@ -14,25 +15,24 @@ html {
   -moz-osx-font-smoothing: grayscale;
   color: white;
   background: black;
-  height: 400vh;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  box-sizing: border-box;
+  height: 500vh;
+  // scroll-behavior: smooth;
+  // scroll-snap-type: y mandatory;
 }
 
 section {
   height: 100vh;
-  scroll-snap-align: end;
-}
-
-.container {
-  height: 100%;
+  // scroll-snap-align: end;
 }
 
 .background {
-  position: absolute;
-  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   top: 0;
 }
+
 
 

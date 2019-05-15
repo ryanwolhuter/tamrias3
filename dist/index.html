@@ -6,222 +6,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script src="js/main.js"></script>
   <title>Tamrias</title>
 </head>
 
 <body>
-  <div class="container">
+  <!-- background -->
 
-    <!-- navbar -->
+  <div class="background" id="particles-js"></div>
 
-    <nav class="navbar">
-      <a href="#music">Music</a>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <!-- end background -->
 
-    <!-- end navbar -->
+  <!-- navbar -->
 
-    <!-- home -->
+  <nav class="navbar">
+    <a href="#music">Music</a>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section id="home">
-      <div class="home-container">
+  <!-- end navbar -->
 
-        <header>
-          <h1>Tamrias</h1>
-          <p>| audio engineer</p>
-          <p>| sound recordist</p>
-          <p>| music producer</p>
-        </header>
+  <!-- home -->
+
+  <section id="home">
+
+      <header>
+        <h1>Tamrias</h1>
+        <p>| audio engineer</p>
+        <p>| sound recordist</p>
+        <p>| music producer</p>
+      </header>
 
 
-        <svg id="hexagon-big-one" class="hexagon-big" viewBox="0 0 174 200" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.89746 50.866L87 1.73205L172.103 50.866V149.134L87 198.268L1.89746 149.134V50.866Z" />
-        </svg>
+      <svg id="hexagon-big-one" class="hexagon-big" viewBox="0 0 174 200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.89746 50.866L87 1.73205L172.103 50.866V149.134L87 198.268L1.89746 149.134V50.866Z" />
+      </svg>
 
-        <svg id="hexagon-medium-one" class="hexagon-medium" viewBox="0 0 94 108" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.73463 27.866L47 1.73205L92.2654 27.866V80.134L47 106.268L1.73463 80.134V27.866Z" />
-        </svg>
+      <svg id="hexagon-medium-one" class="hexagon-medium" viewBox="0 0 94 108" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.73463 27.866L47 1.73205L92.2654 27.866V80.134L47 106.268L1.73463 80.134V27.866Z" />
+      </svg>
 
-        <svg id="hexagon-medium-two" class="hexagon-medium" viewBox="0 0 94 108" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.73463 27.866L47 1.73205L92.2654 27.866V80.134L47 106.268L1.73463 80.134V27.866Z" />
-        </svg>
+      <svg id="hexagon-medium-two" class="hexagon-medium" viewBox="0 0 94 108" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.73463 27.866L47 1.73205L92.2654 27.866V80.134L47 106.268L1.73463 80.134V27.866Z" />
+      </svg>
 
-        <svg id="hexagon-small-one" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
-        </svg>
-        <svg id="hexagon-small-two" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
-        </svg>
-        <svg id="hexagon-small-three" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
-        </svg>
-        <svg id="hexagon-small-four" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
-        </svg>
+      <svg id="hexagon-small-one" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
+      </svg>
+      <svg id="hexagon-small-two" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
+      </svg>
+      <svg id="hexagon-small-three" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
+      </svg>
+      <svg id="hexagon-small-four" class="hexagon-small" viewBox="0 0 33 37" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.97853 10.116L16.5 1.73205L31.0215 10.116V26.884L16.5 35.2679L1.97853 26.884V10.116Z" />
+      </svg>
 
-      </div>
-    </section>
+  </section>
 
-    <!-- end home -->
+  <!-- end home -->
 
-    <!-- music -->
+  <!-- music -->
 
-    <section id="music">
-      <div class="music-container">
-        <article>
-          <div class="description">
-            <h1>New Leaf</h1>
+  <section id="music">
 
-            <p>Tamrias is a classically-trained
-              electro-acoustic musician and producer
-              currently based in Cape Town,
-              South Africa.</p>
+  </section>
 
-            <p>Her debut album, titled 'New Leaf' is a deep,
-              reflective expedition into the unknown.</p>
+  <!-- end music -->
 
-            <p>Swirling, cinematic sound-design techniques
-              and cut-up glitch-esque electronics swim amidst
-              colourful composition, with sampled loops and
-              naturally occurring soundscapes.</p>
+  <!-- work -->
 
-            <p><small>Released January 18, 2018</small></p>
+  <section id="work">
 
-            <p><small>Mastered by Levi Thole</small></p>
-          </div>
-        </article>
+  </section>
 
-        <article>
-          <div class='description'>
-            <h1>The Cave</h1>
+  <!-- end work -->
 
-            <p>"The first time working with Tamrias,
-              we found some really cool beads in the studio
-              and tried sampling them and found we could make a really
-              creepy sounding background which reminded us both a lot of a cave.</p>
+  <!-- about -->
 
-            <p>From there she put down an impromptu piano part
-              and we had a friend come in and record some melodic lines
-              and extended techniques on viola. </p>
+  <section id="about">
+    
+  </section>
 
-            <p>I did most of the processing and sound design to bring our cave to life.</p>
+  <!-- end about -->
 
-            <p><small> - Angus Teeton</small></p>
-          </div>
-        </article>
-      </div>
-    </section>
+  <!-- contact -->
 
-    <!-- end music -->
+  <section id="contact">
 
-    <!-- work -->
+  </section>
 
-    <section id="work">
-      <div class="work-container">
-        <div class="slide">
-          <h1>New Leaf</h1>
-
-          <p>Tamrias is a classically-trained
-            electro-acoustic musician and producer
-            currently based in Cape Town,
-            South Africa.</p>
-
-          <p>Her debut album, titled 'New Leaf' is a deep,
-            reflective expedition into the unknown.</p>
-
-          <p>Swirling, cinematic sound-design techniques
-            and cut-up glitch-esque electronics swim amidst
-            colourful composition, with sampled loops and
-            naturally occurring soundscapes.</p>
-
-          <p><small>Released January 18, 2018</small></p>
-
-          <p><small>Mastered by Levi Thole</small></p>
-        </div>
-        <div class="slide">
-          <h1>New Leaf</h1>
-
-          <p>Tamrias is a classically-trained
-            electro-acoustic musician and producer
-            currently based in Cape Town,
-            South Africa.</p>
-
-          <p>Her debut album, titled 'New Leaf' is a deep,
-            reflective expedition into the unknown.</p>
-
-          <p>Swirling, cinematic sound-design techniques
-            and cut-up glitch-esque electronics swim amidst
-            colourful composition, with sampled loops and
-            naturally occurring soundscapes.</p>
-
-          <p><small>Released January 18, 2018</small></p>
-
-          <p><small>Mastered by Levi Thole</small></p>
-        </div>
-        <div class="slide">
-          <h1>New Leaf</h1>
-
-          <p>Tamrias is a classically-trained
-            electro-acoustic musician and producer
-            currently based in Cape Town,
-            South Africa.</p>
-
-          <p>Her debut album, titled 'New Leaf' is a deep,
-            reflective expedition into the unknown.</p>
-
-          <p>Swirling, cinematic sound-design techniques
-            and cut-up glitch-esque electronics swim amidst
-            colourful composition, with sampled loops and
-            naturally occurring soundscapes.</p>
-
-          <p><small>Released January 18, 2018</small></p>
-
-          <p><small>Mastered by Levi Thole</small></p>
-        </div>
-        <div class="slide">
-          <h1>New Leaf</h1>
-
-          <p>Tamrias is a classically-trained
-            electro-acoustic musician and producer
-            currently based in Cape Town,
-            South Africa.</p>
-
-          <p>Her debut album, titled 'New Leaf' is a deep,
-            reflective expedition into the unknown.</p>
-
-          <p>Swirling, cinematic sound-design techniques
-            and cut-up glitch-esque electronics swim amidst
-            colourful composition, with sampled loops and
-            naturally occurring soundscapes.</p>
-
-          <p><small>Released January 18, 2018</small></p>
-
-          <p><small>Mastered by Levi Thole</small></p>
-        </div>
-      </div>
-    </section>
-
-    <!-- end work -->
-
-    <!-- contact -->
-
-    <section id="contact">
-      <div class="contact-container">
-        <div class="text">
-          <h1>Contact</h1>
-
-          <p>If you're not down to jam don't even
-            talk to me.</p>
-
-          <p>No stalkers. No weirdos. No Furries.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- end contact -->
-  </div>
+  <!-- end contact -->
 </body>
 
 </html>
