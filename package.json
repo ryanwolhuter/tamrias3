@@ -18,7 +18,4 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5"
   },
-  "dependencies": {
-    "particles.js": "^2.0.0"
-  }
 }
